@@ -16,58 +16,66 @@ Terraform is an open-source infrastructure as code (IaC) tool that enables you t
 
 <h2>Project walk-through:</h2>
 
-<p align="center">
-First we need to SSH into our machine. <br/>
+<h2>First we need to SSH into our machine.
+<br />
+<br />
 <img src="https://imgur.com/L24JqzA.png" height="80%" width="80%">
 <br />
 <br />
 
-<p align="center">
-  We now need to create a directory to house our Terraform code, we'll call the directory 
-"terraform_code".  <br/>
+We now need to create a directory to house our Terraform code, we'll call the directory 
+"terraform_code".
+<br />
+<br />
 <img src="https://imgur.com/LiLzAIG.png" height="80%" width="80%">
 <br />
 <br />
 
-  <p align="center">
+
 Then we create a new file for the code called main.tf by using the command 'vim main.tf'. And then add the code for creating an EC2 instance in AWS to the main.tf file.
-  <br/>
+<br />
+<br />
 <img src="https://imgur.com/6cYa7Fj.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-Now we need to initialize the Terraform configuration with the 'terraform init' command. Which initializes our working directory containing the configuration files (main.tf) and installs plugins for required providers.  <br/>
+Now we need to initialize the Terraform configuration with the 'terraform init' command. Which initializes our working directory containing the configuration files (main.tf) and installs plugins for required providers.
+<br />
+<br />
 <img src="https://imgur.com/wsGUnaR.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-After initializing, we need to run the 'terraform plan' command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.  <br/>
+
+After initializing, we need to run the 'terraform plan' command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+<br />
+<br />
 <img src="https://imgur.com/D9rfgeM.png" height="80%" width="80%">
 <br />
 <br />
 <img src="https://imgur.com/o0FkyL7.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-Now that we have a plan set, we can now execute that plan with 'terraform apply' which will create our instance in AWS.<br/>
+Now that we have a plan set, we can now execute that plan with 'terraform apply' which will create our instance in AWS.
+<br />
+<br />
 <img src="https://imgur.com/IvPX2Bn.png" height="80%" width="80%">
 <br />
 <br />
 <img src="https://imgur.com/AC4dV3U.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-Let's check the AWS management console to see if our EC2 instances has been created. Looks like it did!  <br/>
+Let's check the AWS management console to see if our EC2 instances has been created. Looks like it did!
+<br />
+<br />
 <img src="https://imgur.com/bzEEVYN.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-Finally, we can destroy our infrastructure using the 'terraform destroy' command. <br/>
+Finally, we can destroy our infrastructure using the 'terraform destroy' command.
+<br />
+<br />
 <img src="https://imgur.com/FnHiqxD.png" height="80%" width="80%">
 <br />
 <br />
 <img src="https://imgur.com/KCeJVv7.png" height="80%" width="80%">
 <br />
 <br />
-<p align="center">
-I hope you enjoyed following along if you did!  <br/>
+<h2>I hope you enjoyed following along if you did!<h2>
