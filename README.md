@@ -78,4 +78,4 @@ Finally, we can destroy our infrastructure using the 'terraform destroy' command
 <img src="https://imgur.com/KCeJVv7.png" height="80%" width="80%">
 <br />
 <br />
-<h2>I hope you enjoyed following along if you did!<h2>
+I hope you enjoyed following along if you did!
